@@ -21,7 +21,7 @@ export const Footer = () => (
           <TD style={{ textAlign: "left", width: "33.3%" }}>
             <Link
               href="https://5ka.ru/"
-              style={{ borderBottom: "1px solid #000000" }}
+              style={{ textDecoration: "underline" }}
             >
               Вход в&nbsp;личный кабинет
             </Link>
@@ -29,7 +29,7 @@ export const Footer = () => (
 
           <TD style={{ textAlign: "center", padding: "0 5px", width: "33.3%" }}>
             <Link
-              style={{ borderBottom: "1px solid #000000" }}
+              style={{ textDecoration: "underline" }}
               href="https://5ka.ru/"
             >
               Правила программы
@@ -38,7 +38,7 @@ export const Footer = () => (
 
           <TD style={{ textAlign: "right", width: "33.3%" }}>
             <Link
-              style={{ borderBottom: "1px solid #000000" }}
+              style={{ textDecoration: "underline" }}
               href="https://5ka.ru/"
             >
               Часто задаваемые вопросы
@@ -55,33 +55,49 @@ export const Footer = () => (
             <div style={{ fontSize: 10 }}>
               Круглосуточно, бесплатно по&nbsp;РФ
             </div>
-            <div style={{ color: "#84c069", fontSize: 16, fontWeight: "bold" }}>
+            <Link
+              href="tel:88005555505"
+              style={{
+                color: "#84c069",
+                fontSize: 16,
+                fontWeight: "bold",
+              }}
+            >
               8&nbsp;800&nbsp;555&nbsp;55&nbsp;05
-            </div>
+            </Link>
           </TD>
 
           <TD>
             <Table
               align="right"
-              style={{ width: "100%", maxWidth: "144px", lineHeight: 0 }}
+              style={{ width: "100%", maxWidth: "144px", fontSize: 0 }}
             >
               <tr>
                 <TD style={{ textAlign: "left" }}>
-                  <a href="https://5ka.ru/" style={{ display: "inline-block" }}>
+                  <Link
+                    href="https://5ka.ru/"
+                    style={{ display: "inline-block" }}
+                  >
                     <Image src={vk} alt="ВК" width="28"></Image>
-                  </a>
+                  </Link>
                 </TD>
 
                 <TD style={{ textAlign: "center" }}>
-                  <a href="https://5ka.ru/" style={{ display: "inline-block" }}>
+                  <Link
+                    href="https://5ka.ru/"
+                    style={{ display: "inline-block" }}
+                  >
                     <Image src={fb} alt="ФБ" width="28"></Image>
-                  </a>
+                  </Link>
                 </TD>
 
                 <TD style={{ textAlign: "right" }}>
-                  <a href="https://5ka.ru/" style={{ display: "inline-block" }}>
+                  <Link
+                    href="https://5ka.ru/"
+                    style={{ display: "inline-block" }}
+                  >
                     <Image src={ok} alt="ОК" width="28"></Image>
-                  </a>
+                  </Link>
                 </TD>
               </tr>
             </Table>

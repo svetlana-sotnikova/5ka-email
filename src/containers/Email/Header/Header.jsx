@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Image, Table, TD } from "../../../components";
+import { Box, Image, Link, Table, TD } from "../../../components";
 import card from "./card.png";
 import logo from "./logo.png";
 
@@ -9,9 +9,12 @@ export const Header = () => (
       style={{ display: "inline-table", width: "235px" }}
       td={{ style: { padding: "8px 0" } }}
     >
-      <a href="https://5ka.ru/" style={{ display: "block" }}>
+      <Link
+        href="https://5ka.ru/"
+        style={{ display: "inline-block", fontSize: 0 }}
+      >
         <Image src={logo} alt="Пятёрочка" width="184" />
-      </a>
+      </Link>
     </Box>
     <Box
       style={{ display: "inline-table", width: "auto" }}

@@ -10,7 +10,7 @@ export const Promo = () => (
         <Image
           src={food}
           alt="Еда"
-          style={{ maxWidth: "100%", height: "auto", maxHeight: 255 }}
+          style={{ width: "100%", height: "auto", maxHeight: 255 }}
         />
       </TD>
 
@@ -34,7 +34,7 @@ export const Promo = () => (
           </tr>
           <tr>
             <TD style={{ fontSize: 32 }}>
-              баллов в&nbsp;подарок за&nbsp;покупку
+              баллов <nobr>в&nbsp;подарок</nobr> <nobr>за&nbsp;покупку</nobr>
             </TD>
           </tr>
           <tr>

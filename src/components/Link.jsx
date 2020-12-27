@@ -7,6 +7,7 @@ export const Link = (
   props
 ) => (
   <a
+    target="_blank"
     {...props}
     style={{ color: "#000000", textDecoration: "none", ...props.style }}
   >

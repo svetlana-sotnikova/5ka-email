@@ -16,6 +16,7 @@ export const Table = (
       style={{
         borderCollapse: "collapse",
         width: "100%",
+        backgroundColor: "transparent",
         ...table.style,
       }}
     >

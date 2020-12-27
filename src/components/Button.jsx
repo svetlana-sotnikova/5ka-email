@@ -7,6 +7,7 @@ export const Button = (
   props
 ) => (
   <a
+    target="_blank"
     {...props}
     style={{
       display: "inline-block",

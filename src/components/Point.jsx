@@ -7,12 +7,12 @@ import { TD } from "./TD";
 
 export const Point = (props) => (
   <Box
-    style={{ display: "inline-table", width: 180, lineHeight: 0 }}
+    style={{ display: "inline-table", width: 180, fontSize: 0 }}
     td={{ style: { padding: "0 10px" } }}
   >
     <Table style={{ lineHeight: basicLineHeight }}>
       <tr>
-        <TD style={{ paddingTop: "24px", lineHeight: 0 }}>
+        <TD style={{ paddingTop: "24px", fontSize: 0 }}>
           <Image
             src={props.src}
             alt={props.alt}
