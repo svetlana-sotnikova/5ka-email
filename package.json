@@ -6,7 +6,8 @@
     "build": "parcel build src/index.jsx",
     "export": "node dist/index.js > dist/index.html && rm dist/*.js dist/*.js.map",
     "clean": "rm -rf dist",
-    "prepare": "yarn clean && yarn build --public-url . && yarn export"
+    "prepare": "yarn clean && yarn build --public-url . && yarn export",
+    "docs": "rm -rf docs && mv dist docs"
   },
   "license": "UNLICENSED",
   "author": {
